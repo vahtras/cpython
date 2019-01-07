@@ -253,12 +253,12 @@ Creating Tasks
            ...
 
        # In Python 3.7+
-       task = asyncio.create_task(coro())
-       ...
+           task = asyncio.create_task(coro())
+           ...
 
        # This works in all Python versions but is less readable
-       task = asyncio.ensure_future(coro())
-       ...
+           task = asyncio.ensure_future(coro())
+           ...
 
    .. versionadded:: 3.7
 
